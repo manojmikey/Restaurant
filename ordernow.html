@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Bruno+Ace+SC&family=Cabin:ital@0;1&family=Dancing+Script:wght@600&family=Kalam&family=Satisfy&display=swap"
+        rel="stylesheet">
+</head>
+<style>
+    .mainbar {
+        background-color: rgb(212 219 148);
+        border: 3px;
+        padding-left: 0px;
+        padding-right: 0px;
+        height: 78px;
+        margin: -42px;
+    }
+
+    .Qrestro {
+        font-size: 30px;
+        font-family: 'Times New Roman', Times, serif;
+        padding-left: 39px;
+    }
+
+    .Qrestro h1 {
+        padding: 11px;
+        margin: -11x;
+        top: 3px;
+        left: 3px;
+    }
+
+    .navigationbar a {
+        text-decoration: none;
+        color: black;
+
+
+    }
+
+    .navigationbar {
+        display: inline;
+        position: absolute;
+        top: 12px;
+        left: 475px;
+        width: fit-content;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+
+    .navigationbar ul li {
+        list-style: none;
+        display: inline;
+        font-size: 30px;
+        padding: 9px;
+    }
+
+    .navigationbar ul li a:hover {
+        color: white;
+        background-color: black;
+        border-radius: 5px;
+
+    }
+    body {
+        background-image: url('use.jpg');
+        width: 100%;
+        height: 100vh;
+        background-size: cover;
+    }
+
+    .rightside {
+        display: inline;
+        position: absolute;
+        top: -4px;
+    right: 4px;
+        width: fit-content;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+    }
+
+    .rightside a {
+        text-decoration: none;
+        color: black;
+    }
+
+    .rightside ul li {
+        display: inline;
+        font-size: 20px;
+        padding: 9px;
+        list-style: none;
+
+    }
+
+    .rightside ul li a:hover {
+        color: white(228, 216, 216);
+        background-color: grey;
+        border-radius: 5px;
+    }
+
+    
+    ul li.active a{
+        color: black;
+        background-color: #fff;
+    }
+
+
+    .float {
+        display: flex;
+        flex-direction: row;
+        padding: 115px;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+    .one{
+        border: 3px solid black;
+        border-radius: 10px;
+    }
+    .two{
+        border: 3px solid black;
+        border-radius: 10px;
+    }
+    .three{
+        border-radius: 10px;
+            border: 3px solid black;
+    
+    }
+
+    button{
+    margin-left: 94px;
+    background-color: blanchedalmond;
+    border-radius: 10px;
+    }
+    .search{
+        padding: 9px 66px;
+    font-size: 17px;
+    position: absolute;
+    right: -17px;
+    width: -174px;
+    color: grey;
+
+    }
+    
+</style>
+
+<body>
+    <div class="mainbar">
+        <div class="Qrestro">
+    
+            <h1>Qrestro</h1>
+        </div>
+        <div class="navigationbar">
+            <ul>
+    
+                <li ><a href="mikeyretraurent.html" >Home</a></li>
+                <li class="active"><a href="ordernow.html">Ordernnow</a></li>
+                <li><a href="aboutus.html">About us</a></li>
+                <li><a href="contactus.html">Contact us</a></li>
+            </ul>
+        </div>
+        <div class="rightside">
+            <ul>
+                <li><a href="">
+                    <img src="shiva.jpg" alt="">
+                    my@gamil.com</a></li>
+                <li><a href="">8688802764</a></li>
+                <div class="search">
+                    <input type="text"name=search id="search" placeholder="searchfooditems">
+                </div>
+
+            </ul>
+        </div>
+    <div class="float">
+        <div class="one">
+            <img style="display: inline;" src="order1.jpg" alt=""> <br>
+            <button onclick="">order now</button>
+        </div>
+        <div class="two">
+            <img src="order2.jpg" alt=""> <br>
+            <button onclick="">order now</button>
+        </div>
+        <div class="three">
+            <img src="order3.jpg" alt=""> <br>
+            <button onclick="">order now</button>
+
+        </div>
+        
+
+    </div>
+</body>
+
+</html>
